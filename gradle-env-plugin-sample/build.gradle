@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id 'com.theevilroot.gradle-env-plugin'
+}
+
+group 'com.theevilroot'
+version '1.0-SNAPSHOT'
+
+gradleEnv {
+    enableSystemEnvironment() // system environment variables
+    propertiesFile("project.properties") // "public" properties file that is checked out by VCS
+    propertiesFile("local.properties") // "private" properties file that is not checked out by VSC
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url = project.gradleEnv.queryKey("ORG_REPOSITORY") // retrieve from project.properties
+        credentials {
+            username = project.gradleEnv.queryKey("ORG_USER") // retrieve from system env or local.properties
+            password = project.gradleEnv.queryKey("ORG_PASSWORD") // retrieve from local.properties
+        }
+    }
+}
+
+dependencies {
+}
