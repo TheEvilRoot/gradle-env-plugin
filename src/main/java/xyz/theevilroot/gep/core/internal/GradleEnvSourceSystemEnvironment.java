@@ -1,4 +1,4 @@
-package xyz.theevilroot.gep.core.core.internal;
+package xyz.theevilroot.gep.core.internal;
 
 public class GradleEnvSourceSystemEnvironment implements GradleEnvSource {
     @Override
