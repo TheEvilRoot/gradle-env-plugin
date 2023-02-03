@@ -1,9 +1,8 @@
-package com.theevilroot.gep.core;
+package xyz.theevilroot.gep.core.core;
 
-import com.theevilroot.gep.core.internal.GradleEnvSource;
-import com.theevilroot.gep.core.internal.GradleEnvSourcePropertiesFile;
-import com.theevilroot.gep.core.internal.GradleEnvSourceSystemEnvironment;
-import groovy.lang.Closure;
+import xyz.theevilroot.gep.core.core.internal.GradleEnvSource;
+import xyz.theevilroot.gep.core.core.internal.GradleEnvSourcePropertiesFile;
+import xyz.theevilroot.gep.core.core.internal.GradleEnvSourceSystemEnvironment;
 import org.gradle.api.Project;
 
 import java.nio.file.Paths;

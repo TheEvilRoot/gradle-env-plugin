@@ -1,4 +1,4 @@
-package com.theevilroot.gep.core.internal;
+package xyz.theevilroot.gep.core.core.internal;
 
 import javax.inject.Inject;
 

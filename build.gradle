@@ -4,7 +4,7 @@ plugins {
     id 'java-gradle-plugin'
 }
 
-group 'com.theevilroot'
+group 'xyz.theevilroot'
 version '1.0'
 
 repositories {
@@ -19,10 +19,11 @@ gradlePlugin {
     vcsUrl = 'https://github.com/TheEvilRoot/gradle-env-plugin'
     plugins {
         gradleEnvPlugin {
-            id = 'com.theevilroot.gradle-env-plugin'
+            id = 'xyz.theevilroot.gradle-env-plugin'
             displayName = "GradleEnv"
-            implementationClass = 'com.theevilroot.gep.core.GradleEnv'
+            implementationClass = 'xyz.theevilroot.gep.core.GradleEnv'
             description = "Plugin to maintain environment key-value store for project"
+            tags.set(["environment", "properties"])
         }
     }
 }

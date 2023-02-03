@@ -1,10 +1,9 @@
-package com.theevilroot.gep.core.internal;
+package xyz.theevilroot.gep.core.core.internal;
 
 import javax.inject.Inject;
 import java.io.File;
 import java.io.InputStream;
 import java.nio.file.Files;
-import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
 

@@ -1,4 +1,4 @@
-package com.theevilroot.gep.core;
+package xyz.theevilroot.gep.core.core;
 
 import org.gradle.api.Plugin;
 import org.gradle.api.Project;
