@@ -28,6 +28,6 @@ maven {
 }
 ```
 
-Sample project is available at [gradle-env-plugin](gradle-env-plugin) directory (plugin is applied using Gradle Composite Build).
+Sample project is available at [gradle-env-plugin](gradle-env-plugin-sample) directory (plugin is applied using Gradle Composite Build).
 
 To apply plugin to the gradle project, use `apply plugin: 'xyz.theevilroot.gradle-env-plugin'`
